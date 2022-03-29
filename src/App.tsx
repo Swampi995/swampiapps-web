@@ -16,16 +16,20 @@ function App() {
     return <div className='Cowntdown'>
       <div className='Timer'>
         <span className='Time'>{props.days}</span>
-        <span className='Description'>zile</span></div>
+        <span className='Description'>zile</span>
+      </div>
       <div className='Timer'>
         <span className='Time'>{props.hours}</span>
-        <span className='Description'>ore</span></div>
+        <span className='Description'>ore</span>
+      </div>
       <div className='Timer'>
         <span className='Time'>{props.minutes}</span>
-        <span className='Description'>minute</span></div>
+        <span className='Description'>minute</span>
+      </div>
       <div className='Timer'>
         <span className='Time'>{props.seconds}</span>
-        <span className='Description'>secunde</span></div>
+        <span className='Description'>secunde</span>
+      </div>
     </div>;
   };
 

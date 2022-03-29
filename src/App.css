@@ -64,3 +64,64 @@
   color: white;
   font-family: monospace;
 }
+
+@media screen and (max-width: 1110px) {
+  .Cowntdown {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .Timer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 30px 20px;
+    background-color: rgb(201, 158, 19);
+    border-radius: 20px;
+  }
+
+  .Time {
+    font-size: 54px;
+    font-weight: 800;
+    color: white;
+    font-family: monospace;
+  }
+
+  .Description {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    font-family: monospace;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .Cowntdown {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+  }
+
+  .Timer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px 20px;
+    background-color: rgb(201, 158, 19);
+    border-radius: 20px;
+  }
+
+  .Time {
+    font-size: 54px;
+    font-weight: 800;
+    color: white;
+    font-family: monospace;
+  }
+
+  .Description {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    font-family: monospace;
+  }
+}
