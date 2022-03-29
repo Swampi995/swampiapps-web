@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.Cowntdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.Timer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px 20px;
+  background-color: rgb(201, 158, 19);
+  border-radius: 20px;
+}
+
+.Time {
+  font-size: 94px;
+  font-weight: 800;
+  color: white;
+  font-family: monospace;
+}
+
+.Description {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  font-family: monospace;
+}
